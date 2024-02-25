@@ -13,6 +13,7 @@ Durch Eingabe von http://ai2.appinventor.mit.edu/ in die Adresszeile eines Webbr
 Nach erfolgreichem Start der Anwendung muss zum Entwickeln einer neuen App in der Titelzeile zunächst auf "Projects" und dann "Start new project" angewählt werden. In dem sich öffnenden Fenster einen Namen (z.B.: LED_ea) eingeben und mit "OK" bestätigen.
 
 Danach öffnet sich der Editor:
+
 [Bild](pic/01appinventor.png)
 
 ### Taster einfügen
