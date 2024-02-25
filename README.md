@@ -14,7 +14,7 @@ Nach erfolgreichem Start der Anwendung muss zum Entwickeln einer neuen App in de
 
 Danach öffnet sich der Editor:
 
-[Bild](pic/01appinventor.png)
+![Bild](pic/01appinventor.png)
 
 ### Taster einfügen
 Der Editor beinhaltet zwei Ebenen, die "Designer" Ebene für das Layout der APP wie z.B. die Erstellung der Taster und die Ebene "Blöcke" für das Programm und die Funktionen der APP. Halbrechts werden in einer Spalte alle Komponenten aufgelistet, die auf dem Handy im „Betrachter“ platziert sind. Die Spalte rechts außen zeigt – je nachdem welche Komponente angewählt ist – deren voreingestellten Details an. Durch Veränderung der Einstellungen kann deren Erscheinungsbild verändert werden.
@@ -27,7 +27,7 @@ Für die APP, die vom Handy aus eine LED ein- und ausschalten kann, müssen aus 
 5. Eine "Uhr", sie befindet sich in der Palette unter "Sensoren", auch sie bleibt unsichtbar.
 
 
-[Bild](pic/02appinventor.png)
+![Bild](pic/02appinventor.png)
 
 
 ### Blöcke einfügen
@@ -37,16 +37,16 @@ Jetzt starten wir mit der Programmierung. Die Programmieroberfläche öffnet sic
 ### Taster und Bluetooth-Verbindung programmieren
 Schließlich wird jeder "Taster" mit einer Funktion ausgestattet. Er soll bei einem Klick eine Zahl über den Bluetooth Client übermitteln. Laut der ASCII-Tabelle ergibt der Dezimalewert "48" den Datentyp Caracter "0", (ausschalten) für den Microcontroller, den Dezimalwert "49" wertet der Microcontroller als "1" (einschalten).
 
-[Bild](pic/03appinventor.png)
+![Bild](pic/03appinventor.png)
 
 Ein Klick auf „Verbindung, BluetoothAuswahl“ öffnet ein Auswahlmenü, bei dem folgende Bausteine ausgewählt werden:
 
-[Bild](pic/04appinventor.png)
+![Bild](pic/04appinventor.png)
 
 ### App erzeugen
 Unter den Menüpunkt "Erzeugen" wird die Android APP (.apk) ausgewählt und gestartet. Der erzeugte QR-Code kann mit dem Handy gescannt, geladen und die App installiert werden.
 
-[Bild](pic/05appinventor.png)
+![Bild](pic/05appinventor.png)
 
 
 
