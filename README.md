@@ -5,8 +5,9 @@
 |[:skull:ISSUE](https://github.com/frankyhub/MIT-App-Inventor-Tutorial/issues?q=is%3Aissue)|[:speech_balloon: Forum /Discussion](https://github.com/frankyhub/MIT-App-Inventor-Tutorial/discussions)|[:grey_question:WiKi](https://github.com/frankyhub/MIT-App-Inventor-Tutorial/wiki)||
 |--|--|--|--|
 | | | | |
-|![Static Badge](https://img.shields.io/badge/RepoNr.:-%2019-blue)|<a href="https://github.com/frankyhub/MIT-App-Inventor-Tutorial/issues">![GitHub issues](https://img.shields.io/github/issues/frankyhub/MIT-App-Inventor-Tutorial)![GitHub closed issues](https://img.shields.io/github/issues-closed/frankyhub/MIT-App-Inventor-Tutorial)|<a href="https://github.com/frankyhub/MIT-App-Inventor-Tutorial/discussions">![GitHub Discussions](https://img.shields.io/github/discussions/frankyhub/MIT-App-Inventor-Tutorial)|<a href="https://github.com/frankyhub/MIT-App-Inventor-Tutorial/releases">![GitHub release (with filter)](https://img.shields.io/github/v/release/frankyhub/MIT-App-Inventor-Tutorial)|
-|![GitHub Created At](https://img.shields.io/github/created-at/frankyhub/MIT-App-Inventor-Tutorial)| <a href="https://github.com/frankyhub/MIT-App-Inventor-Tutorial/pulse" alt="Activity"><img src="https://img.shields.io/github/commit-activity/m/badges/shields" />| <a href="https://github.com/frankyhub/MIT-App-Inventor-Tutorial/graphs/traffic"><img alt="ViewCount" src="https://views.whatilearened.today/views/github/frankyhub/github-clone-count-badge.svg">  |<a href="https://github.com/frankyhub?tab=stars"> ![GitHub User's stars](https://img.shields.io/github/stars/frankyhub)|
+<a href="https://github.com/frankyhub/MIT-App-Inventor-Tutorial/issues">![GitHub issues](https://img.shields.io/github/issues/frankyhub/MIT-App-Inventor-Tutorial)![GitHub closed issues](https://img.shields.io/github/issues-closed/frankyhub/MIT-App-Inventor-Tutorial)|<a href="https://github.com/frankyhub/MIT-App-Inventor-Tutorial/discussions">![GitHub Discussions](https://img.shields.io/github/discussions/frankyhub/MIT-App-Inventor-Tutorial)|<a href="https://github.com/frankyhub/MIT-App-Inventor-Tutorial/releases">![GitHub release (with filter)](https://img.shields.io/github/v/release/frankyhub/MIT-App-Inventor-Tutorial)|![Static Badge](https://img.shields.io/badge/RepoNr.:-%2019-blue)|
+|![GitHub Created At](https://img.shields.io/github/created-at/frankyhub/MIT-App-Inventor-Tutorial)| <a href="https://github.com/frankyhub/MIT-App-Inventor-Tutorial/pulse" alt="Activity"><img src="https://img.shields.io/github/commit-activity/m/badges/shields" />| <a href="https://github.com/frankyhub/MIT-App-Inventor-Tutorial/graphs/traffic"><img alt="ViewCount" src="https://views.whatilearened.today/views/github/frankyhub/github-clone-count-badge.svg">  |<a href="https://github.com/frankyhub?tab=stars"> ![GitHub User's stars](https://img.shields.io/github/stars/frankyhub)||
+
 </div>
 
 
@@ -25,7 +26,9 @@ Nach erfolgreichem Start der Anwendung muss zum Entwickeln einer neuen App in de
 
 Danach öffnet sich der Editor:
 
-![Bild](pic/01appinventor.png)
+<img src="pic/01appinventor.png" width="500"> 
+<br> <br>
+
 
 ### Taster einfügen
 Der Editor beinhaltet zwei Ebenen, die "Designer" Ebene für das Layout der APP wie z.B. die Erstellung der Taster und die Ebene "Blöcke" für das Programm und die Funktionen der APP. Halbrechts werden in einer Spalte alle Komponenten aufgelistet, die auf dem Handy im „Betrachter“ platziert sind. Die Spalte rechts außen zeigt – je nachdem welche Komponente angewählt ist – deren voreingestellten Details an. Durch Veränderung der Einstellungen kann deren Erscheinungsbild verändert werden.
@@ -38,8 +41,8 @@ Für die APP, die vom Handy aus eine LED ein- und ausschalten kann, müssen aus 
 5. Eine "Uhr", sie befindet sich in der Palette unter "Sensoren", auch sie bleibt unsichtbar.
 
 
-![Bild](pic/02appinventor.png)
-
+<img src="pic/02appinventor.png" width="500"> 
+<br> <br>
 
 ### Blöcke einfügen
 Jetzt sind alle Komponenten für die grafische Programmierung vorhanden. Die einzelnen Komponenten könnten noch grafisch optimiert werden. Für den Anfang legen wir jedoch das Hauptaugenmerk auf die Funktion und wählen ein einfaches Design. Nachträglich kann das Design natürlich noch verändert und verbessert werden.
@@ -48,18 +51,23 @@ Jetzt starten wir mit der Programmierung. Die Programmieroberfläche öffnet sic
 ### Taster und Bluetooth-Verbindung programmieren
 Schließlich wird jeder "Taster" mit einer Funktion ausgestattet. Er soll bei einem Klick eine Zahl über den Bluetooth Client übermitteln. Laut der ASCII-Tabelle ergibt der Dezimalewert "48" den Datentyp Caracter "0", (ausschalten) für den Microcontroller, den Dezimalwert "49" wertet der Microcontroller als "1" (einschalten).
 
-![Bild](pic/03appinventor.png)
+
+<img src="pic/03appinventor.png" width="500"> 
+<br> <br>
+
 
 Ein Klick auf „Verbindung, BluetoothAuswahl“ öffnet ein Auswahlmenü, bei dem folgende Bausteine ausgewählt werden:
 
-![Bild](pic/04appinventor.png)
+
+<img src="pic/04appinventor.png" width="500"> 
+<br> <br>
 
 ### App erzeugen
 Unter den Menüpunkt "Erzeugen" wird die Android APP (.apk) ausgewählt und gestartet. Der erzeugte QR-Code kann mit dem Handy gescannt, geladen und die App installiert werden.
 
-![Bild](pic/05appinventor.png)
 
-
+<img src="pic/05appinventor.png" width="500"> 
+<br> <br>
 
 ### Microcontroller programmiern
 Abschließend das C++ Programm in den Microcontroller laden und starten. Im Handy sollte der jetzt der Bluetoothteilnehmer (HC05 oder ESP32GPIO13) sichtbar sein.
